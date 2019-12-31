@@ -8,7 +8,8 @@ public class HelloWorldController {
 	
 	@RequestMapping("/hello")
 	public String sayHello() {
-	return "Hello World Developer!!!";
+		String helloMessage="Hello World Developer!!!";
+	return helloMessage;
 	
 	}
 }
