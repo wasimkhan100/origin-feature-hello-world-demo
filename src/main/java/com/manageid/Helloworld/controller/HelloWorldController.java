@@ -10,6 +10,7 @@ public class HelloWorldController {
 	public String sayHello() {
 		String helloMessage="Hello World Developer!!!";
 		System.out.println("hello ");
+		System.out.println("deploy");
 	return helloMessage;
 	
 	}
